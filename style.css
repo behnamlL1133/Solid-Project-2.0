@@ -1,0 +1,163 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+
+div:first-of-type {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+div:first-of-type {
+  padding: 40px;
+  background: #070705;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+p {
+  color: #faf6f6;
+  font-size: x-large;
+
+}
+
+button {
+  padding: 10px 20px;
+  color: rgb(196, 0, 0);
+  font-size: x-large;
+  width: 120px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.986);
+  border: red;
+}
+
+div:nth-of-type(2) {
+  padding: 30px;
+}
+
+h2 {
+  text-align: center;
+}
+
+div:nth-of-type(2)>div {
+  display: flex;
+  gap: 99px;
+}
+
+div:nth-of-type(2)>div>div {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 333px;
+  margin: -33px;
+  background-color: rgb(66, 66, 66);
+  border: 5px solid rgb(41, 6, 6);
+}
+
+img {
+  width: 100%;
+  height: 777px;
+  object-fit: cover;
+}
+
+.logo {
+  display: flex;
+  align-items: baseline;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.logo span {
+  font-size: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 33px;
+  margin-left: 200px;
+}
+
+header {
+  position: relative;
+  height: 100px;
+  background-color: #070705;
+}
+
+.outer-logo {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  width: 333px;
+  height: auto;
+}
+
+.Outer-logo {
+  position: absolute;
+  top: 5px;
+  right: 30px;
+  width: 133px;
+  height: auto;
+  ;
+}
+
+body {
+  background-color: black;
+}
+
+.Liquid {
+  color: white;
+}
+
+.Solid {
+  color: #ddd;
+}
+
+.Big-Boss {
+  color: #ece3e3;
+}
+
+nav a {
+  color: red;
+  padding: 7px;
+  text-decoration: none;
+  border-left: 3px solid red;
+}
+
+nav a :last-child {
+  border-right: none;
+}
+
+.Gear {
+  height: 66px;
+}
+
+.fp {
+  color: blue;
+}
+
+footer {
+  height: 80px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #070705;
+  border: 6px solid rgb(180, 42, 0)
+}
+
+footer span:first-child {
+  color: red;
+}
+
+footer span:last-child {
+  color: blue;
+}
